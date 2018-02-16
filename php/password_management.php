@@ -128,7 +128,7 @@ if ($methodType === "GET") {
           $sid = session_id();
 
           $data = array("status" => "pass",
-                        "sessionid" => "$sid",
+                        "sid" => "$sid",
                         "verified"=>"$verifiedpw");
         }
         else {
