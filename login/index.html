@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>login</title>
+    <meta charset="utf-8"/>
+  </head>
+
+  <body>
+    <form id="signup-form">
+      <input type="text" placeholder="First Name" autofocus="autofocus" name="name_first"/><br/>
+      <input type="text" placeholder="Last Name" name="name_last"/><br/>
+      <input type="email" placeholder="E-Mail" name="email"/><br/>
+      <input type="password" placeholder="password" name="password"/><br/>
+
+      <input id="userType0" type="radio" value="customer" name="usertype"/>
+      <label for="contactChoice2">Customer</label>
+      <input id="userType1" type="radio" value="farmer" name="usertype"/>
+      <label for="contactChoice2">Farmer</label><br/>
+
+      <input id="signup-action-main" class="button" type="button" value="Sign Up"/>
+    </form>
+
+    <br/>
+
+    <form id="login-form">
+      <input type="email" placeholder="E-Mail" name="email"/><br/>
+      <input type="password" placeholder="password" name="password"/><br/>
+
+      <input id="login-action-main" class="button" type="button" value="Log In"/>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/ajax_password.js"></script>
+  </body>
+</html>
